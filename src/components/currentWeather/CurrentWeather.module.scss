@@ -1,0 +1,28 @@
+.weatherToday {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  background: rgb(29, 70, 132, 0.7);
+  padding: 15px;
+  border-radius: 15px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.currentWeather {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.currentWeatherBottom {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+.searchContainer {
+  position: relative;
+}
+
+.searchForm {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid rgb(29, 70, 132);
+  display: flex;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: rgba(29, 70, 132, 0.5);
+  color: white;
+}
+
+.searchForm:focus {
+  outline: none;
+}
+
+.searchForm::placeholder {
+  color: white;
+  padding: 5px;
+}
+.icon {
+  position: absolute;
+  right: calc(25% + 10px);
+  top: 10px;
+}

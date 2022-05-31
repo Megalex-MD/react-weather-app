@@ -1,0 +1,42 @@
+.app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.app::before {
+  content: "";
+  position: absolute;
+  background-image: url("./assets/images/wall6.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(30, 71, 135);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 80%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 15px;
+}
